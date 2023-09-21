@@ -4,7 +4,7 @@ import { Navbar } from "./components/navbar/Navbar";
 import { HomePage } from "./components/pages/HomePage";
 import { FavoritesPage } from "./components/pages/FavoritesPage";
 import { DetailsPage } from "./components/pages/DetailsPage";
-import { fetchSymbols } from "./components/pages/utils";
+import { fetchSymbols } from "./utils/api";
 import styled from 'styled-components';
 
 const App = () => {
