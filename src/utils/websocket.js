@@ -25,7 +25,6 @@ export const connectWebSocket = (symbols, onDataUpdate) => {
     ws.onmessage = (message) => {
         const data = JSON.parse(message.data);
         if (data[1] === 'hb') {
-            // Heartbeat poruka, preskoči
             return;
         }
 
